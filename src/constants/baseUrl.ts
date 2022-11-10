@@ -1,6 +1,6 @@
 export default {
   PREFIX: 'JWT',
-  BASE: `http://localhost:3003`,
+  BASE: `https://catlogger-backend-production.up.railway.app`,
   USER: {
     POST: {
       LOGIN: 'user/login',
