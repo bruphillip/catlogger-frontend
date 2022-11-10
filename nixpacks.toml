@@ -1,3 +1,6 @@
+[phases.install]
+cmds = ["npm i serve -g", "npm i"]
+
 [phases.build]
 dependsOn = ["install"]
 cmds = ["npm run build"]
