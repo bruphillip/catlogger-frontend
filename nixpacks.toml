@@ -1,0 +1,6 @@
+[phases.build]
+dependsOn = ["install"]
+cmds = ["npm run build"]
+
+[start]
+cmd = "serve -s build"
